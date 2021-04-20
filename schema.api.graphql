@@ -1,0 +1,22 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+    getMyProfile: MyProfile!
+
+    getProfile(screenName: String!): OtherProfile!
+}
+
+type Mutation {
+
+}
+
+type MyProfile {
+    id: ID!
+    name: String!
+    screenName: String!
+    imageUrl: AWSURL
+    backgroundImageUrl: AWSURL
+}
