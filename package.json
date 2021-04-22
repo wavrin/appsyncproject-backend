@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "aws-sdk": "^2.890.0",
+    "chance": "^1.1.7",
     "serverless": "^2.37.0",
-    "serverless-appsync-plugin": "^1.10.0"
+    "serverless-appsync-plugin": "^1.10.0",
+    "serverless-iam-roles-per-function": "^3.1.0"
   }
 }
